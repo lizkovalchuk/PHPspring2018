@@ -1,0 +1,89 @@
+/*******************************************
+*TABLE OF CONTENTS
+*=================
+*1. DEFAULT OVERRIDES
+*2. HEADER
+*3. MAIN
+*4. FORM
+*********************************************/
+
+
+/*===========================================================
+/* 1. DEFAULT OVERRIDES */
+/*=========================================================*/
+
+
+#hidden {
+    position: absolute;
+    left: -10000px;
+}
+body {
+    background: #666666;
+}
+p , h2 {
+    font-family: 'Roboto', sans-serif;
+}
+#page-wrapper {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*===========================================================
+/* 2. HEADER */
+/*=========================================================*/
+
+#logo {
+    max-height: 1000px;
+}
+
+/*===========================================================
+/* 3. MAIN */
+/*=========================================================*/
+
+legend {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*===========================================================
+/* 4. FORM */
+/*=========================================================*/
+
+
+.left-labels {
+    font-family: 'Roboto', sans-serif;
+    width: 10em;
+    float: left;
+    margin-right: 1em;
+    text-align: right;
+    margin-bottom: .2em;
+}
+/*input {*/
+    /*float: left;*/
+/*}*/
+fieldset {
+    margin: 0;
+    margin-bottom: .5em;
+    padding-left: 1em;
+}
+.textbox {
+    width: 15em;
+    margin-bottom: .2em;
+}
+br {
+    clear: both;
+    margin-bottom: .2em;
+}
+#instr-wrapper{
+    margin: 0 auto;
+    max-width: 300px;
+}
+/*.form__input_instr{*/
+/*flex: 1 1;*/
+
+/*}*/
+/*.instr-cb{*/
+    /*float: right;*/
+/*}*/
