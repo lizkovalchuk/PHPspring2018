@@ -1,0 +1,111 @@
+/*******************************************
+*TABLE OF CONTENTS
+*=================
+*1. DEFAULT OVERRIDES
+*2. HEADER
+*3. MAIN
+*4. FORM
+*5. FOOTER
+*********************************************/
+
+
+/*===========================================================
+/* 1. DEFAULT OVERRIDES */
+/*=========================================================*/
+
+
+#hidden {
+    position: absolute;
+    left: -10000px;
+}
+
+p , h2 {
+    font-family: 'Roboto', sans-serif;
+}
+#page-wrapper {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: lightsteelblue;
+}
+
+
+/*===========================================================
+/* 2. HEADER */
+/*=========================================================*/
+
+#logo {
+    max-height: 200px;
+}
+.upper-links{
+    font-size: 3em;
+    margin-right: 1em;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+#header-wrapper{
+    background-color: white;
+}
+
+/*===========================================================
+/* 3. MAIN */
+/*=========================================================*/
+
+legend {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+form{
+    border: 1px solid black;
+    margin-left: 30%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    background-color: white;
+    max-width: 500px;
+}
+
+/*===========================================================
+/* 4. FORM */
+/*=========================================================*/
+
+
+.left-labels {
+    font-family: 'Roboto', sans-serif;
+    width: 10em;
+    float: left;
+    margin-right: 1em;
+    text-align: right;
+    margin-bottom: .2em;
+}
+
+fieldset {
+    margin: 0;
+    margin-bottom: .5em;
+    /*padding-left: 1em;*/
+}
+.textbox {
+    width: 15em;
+    margin-bottom: .2em;
+}
+br {
+    clear: both;
+    margin-bottom: .2em;
+}
+#instr-wrapper{
+    margin: 0 auto;
+    max-width: 300px;
+}
+.error-print{
+    color: red;
+}
+
+/*===========================================================
+/* 4. FORM */
+/*=========================================================*/
+
+.social-media{
+    font-size: 7em;
+    margin-right: 0.2em;
+}
